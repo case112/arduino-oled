@@ -24,7 +24,7 @@ void loop() {
   display.setCursor(5,7);
   display.print((char)247); // degree symbol 
   display.print("C ");
-  display.println(random(9, 199)); 
+  display.println(79 + random(-4,4)); 
   display.display();
   delay(2000);
   display.clearDisplay();
